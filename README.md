@@ -7,20 +7,19 @@ Anaconda - Python 3.7
 
 ## Algorithm:
 ### Step1:
-<br>
+Import cv2, matplotlib.py libraries and display the saved images using cv2.imshow().
 
 ### Step2:
-<br>
+Use cv2.calcHist(images, channels, mask, histSize, ranges[, hist[, accumulate]]) to find the histogram of the image.
 
 ### Step3:
-<br>
+Plot the image and its stem plots using the plt.show() and plt.stem() functions.
 
 ### Step4:
-<br>
+Equalize the grayscale image using the in-built function cv2.equalizeHist().
 
 ### Step5:
-<br>
-
+Print the original and equalized image using cv2.imshow() and end the program.
 ## Program:
 ```python
 # Developed By:
